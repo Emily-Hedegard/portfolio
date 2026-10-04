@@ -192,7 +192,7 @@ nav.main-nav a.active {
 .logo-track {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 64px;
   width: max-content;
   animation: logo-scroll 30s linear infinite;
 }
@@ -201,32 +201,10 @@ nav.main-nav a.active {
   animation-play-state: paused;
 }
 
-.logo-chip {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 auto;
-  height: 56px;
-  padding: 0 24px;
-  background: #fffdf9;
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.logo-chip--dark {
-  background: var(--navy);
-  border-color: var(--navy);
-}
-
-.logo-chip:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(26, 20, 10, 0.1);
-}
-
 .logo-item {
-  height: 26px;
+  height: 34px;
   width: auto;
+  flex: 0 0 auto;
   display: block;
 }
 
