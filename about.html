@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Emily Hedegard</title>
+<meta name="description" content="Emily Hedegard is an investigative journalist covering health care access, education policy, and underserved communities across the United States.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="logo">EH.</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.main-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="investigations.html">Investigations</a></li>
+        <li><a href="features.html">Features &amp; Essays</a></li>
+        <li><a href="archive.html">Full Archive</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="about-hero">
+  <div class="wrap" style="display:grid; grid-template-columns: 300px 1fr; gap:56px; align-items:center;">
+    <div class="polaroid">
+      <div class="tape"></div>
+      <img src="images/headshot.jpg" alt="Portrait of Emily Hedegard">
+      <div class="fig-caption">Fig. 01 — Field Notes</div>
+    </div>
+    <blockquote class="pull-quote">&ldquo;Just taking it bird by bird.&rdquo;</blockquote>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap about-body">
+    <p>I'm an investigative journalist covering local and statewide issues across the United States.</p>
+
+    <p>I'm especially interested in stories at the intersection of systems and lived experience, including health care access, education policy, and issues affecting underserved communities.</p>
+
+    <p>I got my start in student journalism at the University of New England, where I eventually served as editor-in-chief. That experience shaped how I approach reporting: ask questions even when answers aren't offered, stand by the work, and make space for people to speak for themselves. It also taught me how quickly institutions can try to control a narrative, and why it matters to push back.</p>
+
+    <p>I've since reported in newsrooms across Maine, with work published in outlets including the Portland Press Herald and The Maine Monitor. My investigation into Maine's maternity care crisis, "Her Labor Turned Dangerous," was cited in a gubernatorial candidate's healthcare platform, quoted before the Maine legislature by a statewide physicians' advocacy group, and adapted into an episode of This American Life. I'm currently pursuing a master's in investigative journalism at Arizona State University's Walter Cronkite School as part of the Howard Center for Investigative Journalism, continuing to focus on explanatory, data-informed reporting that keeps people at the center.</p>
+
+    <p>At its core, my work is about embracing nuance, taking stories one piece at a time and making sure the people behind them are heard.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-logo">EH.</div>
+      <nav>
+        <ul>
+          <li><a href="investigations.html">Investigations</a></li>
+          <li><a href="features.html">Features &amp; Essays</a></li>
+          <li><a href="archive.html">Full Archive</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="year"></span> Emily Hedegard</span>
+      <span>Site built with care in Maine &amp; Arizona</span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
