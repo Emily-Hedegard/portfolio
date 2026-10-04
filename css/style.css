@@ -208,6 +208,10 @@ nav.main-nav a.active {
   display: block;
 }
 
+.logo-item[src$="saco-bay-news.png"] {
+  height: 48px;
+}
+
 @keyframes logo-scroll {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
