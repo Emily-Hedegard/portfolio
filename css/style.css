@@ -616,3 +616,20 @@ footer.site-footer .foot-bottom {
   max-width: 640px;
   margin: 0;
 }
+
+/* ---------- About page banner image (replaces polaroid + pull-quote) ---------- */
+.about-hero--image {
+  grid-template-columns: 1fr;
+}
+
+.about-banner-img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: center 60%;
+  border: 1px solid var(--rule);
+}
+
+@media (max-width: 760px) {
+  .about-banner-img { height: 240px; }
+}
