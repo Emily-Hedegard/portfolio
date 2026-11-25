@@ -293,6 +293,7 @@ nav.main-nav a.active {
 }
 
 .card-thumb {
+  position: relative;
   aspect-ratio: 16/10;
   background: linear-gradient(135deg, var(--cream-deep), #e4d8c0);
   display: flex;
@@ -302,6 +303,47 @@ nav.main-nav a.active {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.award-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--maroon);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  padding: 5px 10px 5px 8px;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  line-height: 1.2;
+}
+
+.award-badge .trophy {
+  font-size: 13px;
+}
+
+.award-badge-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--maroon);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  padding: 4px 9px 4px 7px;
+  border-radius: 999px;
+  margin: 6px 0 4px;
 }
 
 .card-body {
