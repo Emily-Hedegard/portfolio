@@ -39,6 +39,11 @@ img { max-width: 100%; display: block; }
   padding: 0 28px;
 }
 
+.wrap-wide {
+  max-width: 1320px;
+  padding: 0 14px;
+}
+
 /* ---------- Header / Nav ---------- */
 header.site-header {
   border-bottom: 1px solid var(--rule);
@@ -429,8 +434,8 @@ nav.main-nav a.active {
 
 .spotlight-thumb {
   position: relative;
-  flex: 0 0 280px;
-  aspect-ratio: 4/3;
+  flex: 0 0 340px;
+  aspect-ratio: 2/1;
   background: linear-gradient(rgba(27, 33, 48, 0.72), rgba(27, 33, 48, 0.72)), url("../images/thumb-labor-dangerous.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -474,7 +479,7 @@ nav.main-nav a.active {
 }
 
 .spotlight-body {
-  padding: 20px 28px;
+  padding: 18px 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -506,7 +511,7 @@ nav.main-nav a.active {
   color: var(--ink-soft);
   font-size: 15px;
   margin: 0;
-  max-width: 560px;
+  max-width: 640px;
 }
 
 @media (max-width: 640px) {
