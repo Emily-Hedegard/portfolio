@@ -293,7 +293,6 @@ nav.main-nav a.active {
 }
 
 .card-thumb {
-  position: relative;
   aspect-ratio: 16/10;
   background: linear-gradient(135deg, var(--cream-deep), #e4d8c0);
   display: flex;
@@ -306,10 +305,6 @@ nav.main-nav a.active {
 }
 
 .award-badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 2;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -322,8 +317,8 @@ nav.main-nav a.active {
   text-transform: none;
   padding: 5px 10px 5px 8px;
   border-radius: 999px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   line-height: 1.2;
+  margin: 2px 0 10px;
 }
 
 .award-badge .trophy {
